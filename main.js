@@ -90,6 +90,9 @@ function addMonths(elem) {
         feedback += "<p> Average sunshine hours per day: "+sunHoursPerDay+" hours</p>";
         feedback += "<p> Realistic watts needed per hour: "+Math.round(realWattNeeds)+" watts/hour.</p>";
         feedback += "<p> The "+panelName+" panel you selected generates about "+ panelOutput+" watts per hour.</p>";
+
+        window.onload = function() {
+    document.getElementById('calculatesolarneeds').addEventListener('click', calculateSolar);
     
         document.getElementById('feedback').innerHTML=feedback;
     
