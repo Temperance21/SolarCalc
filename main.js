@@ -92,7 +92,7 @@ function addMonths(elem) {
         feedback += "<p> The "+panelName+" panel you selected generates about "+ panelOutput+" watts per hour.</p>";
 
         window.onload = function() {
-    document.getElementById('calculatesolarneeds').addEventListener('click', calculateSolar);
+    document.getElementById('calculate-button').addEventListener('click', calculateSolar);
     
         document.getElementById('feedback').innerHTML=feedback;
     
