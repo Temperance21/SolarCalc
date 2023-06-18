@@ -162,6 +162,23 @@ main form select {
     color: #fff;
     cursor: pointer;
   }
+
+.solar-recommendation {
+  text-align: center;
+}
+
+.solar-recommendation h2 {
+  font-size: 2rem;
+  color: #e05b13;
+  padding-top: 1rem;
+}
+
+.solar-recommendation p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
   
 
   
