@@ -84,11 +84,10 @@ function calculateSolar() {
     feedback += "<p>Realistic watts needed per hour: " + Math.round(realWattNeeds) + " watts/hour.</p>";
     feedback += "<p>The " + panelName + " panel you selected generates about " + panelOutput + " watts per hour.</p>";
 
-    document.getElementById('calculate-button').addEventListener('click', function () {
-        document.getElementById('feedback').innerHTML = feedback;
-    });
+    document.getElementById('feedback').innerHTML = feedback;
 }
 
 window.onload = function () {
     document.getElementById('calculate-button').addEventListener('click', calculateSolar);
 };
+
